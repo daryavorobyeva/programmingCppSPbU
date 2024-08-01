@@ -9,7 +9,7 @@ using namespace std;
 template <class T> class numerate
 {
 public:
-    numerate(T start = 0, T _shift = 1): seed(start), shift(_shift) {};
+    explicit numerate(T start = 0, T _shift = 1): seed(start), shift(_shift) {};
     T operator () () {T old = seed; seed += shift; return old; }
 private:
     T seed, shift;
