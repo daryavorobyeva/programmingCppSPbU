@@ -4,7 +4,7 @@
 
 ### Задача №1: complex_number
 
-Создать класс [**Комплексное число**](../complex_number) (пара чисел типа `double`).
+Создать класс [**Комплексное число**](../main/complex_number) (пара чисел типа `double`).
 
 <details>
 <summary>Условия задачи:</summary>
@@ -34,7 +34,6 @@
 </details>
   
 
-<br>
 <br>
 ### Задача №2: vector
 
